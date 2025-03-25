@@ -1,0 +1,109 @@
+body{
+    background-image: url(../img/hero.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+.full-height {
+    background: rgba(26, 26, 26, 0.548);
+    background-attachment: fixed;
+    max-height: 100vh;
+    height: 100vh;
+
+
+}
+table{
+    width: 100%;
+    padding-top: 5px;
+    
+}
+.heading-text{
+    color: white;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 63px;
+    margin-top: 5%;
+    text-align: start;
+    margin-bottom: 0;
+    padding-left: 40px;
+}
+
+.sub-text2{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 17px;
+    line-height: 27px;
+    font-weight: 400;
+    text-align: start;
+    margin-top: 0;
+    padding-left: 40px;
+}
+
+.login-btn{
+    margin-left: 12px;
+    text-align: start;
+    max-width: 40%;
+    padding: 10px 20px;
+    border-radius: 30px; /* Fully rounded corners */
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    
+}
+
+.bookbtn{
+    background-color: orange;
+}
+
+.register-btn{
+    background-color: rgba(240, 248, 255, 0.589);
+    color: #345cc4;
+}
+
+
+.edoc-logo{
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    padding-left: 20px;
+    animation: transitionIn-Y-over 0.5s;
+}
+
+.edoc-logo-sub{
+    color: rgba(255, 255, 255, 0.733);
+    font-size: 12px;
+
+}
+
+
+.nav-item {
+    color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px 20px;
+    background-color: orange;
+    border-radius: 30px; /* Fully rounded corners */
+    transition: all 0.3s ease-in-out;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.nav-item:hover {
+    background-color: rgb(204, 141, 25);
+    transform: scale(1.05);
+}
+
+
+.footer-hashen{
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+    font-size: 13px;
+    animation: transitionIn-Y-over 0.5s;
+}
